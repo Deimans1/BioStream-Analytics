@@ -1,0 +1,33 @@
+{
+    "SAVE_FOLDER": "data\\final\\Run_3_GSK",
+    "N_STEPS": 23,
+    "EARLY_STOP_PATIENCE": 50,
+    "EARLY_STOP_MONITOR": "val_loss",
+    "EARLY_STOP_MODE": "min",
+    "ADAM_LEARN_SPEED": 0.001,
+    "ALL_COLUMNS": [
+        "Time",
+        "Age",
+        "BiomassEst",
+        "dBiomassEst",
+        "BioWeight",
+        "CPR",
+        "Carbon_Feed",
+        "dCarbon_Feed",
+        "Biomass0",
+        "Induction",
+        "CumulativeAge",
+        "miuSimp",
+        "Protein"
+    ],
+    "K_FOLD_SPLITS": 3,
+    "LOAD": "GSK",
+    "LABEL": "Protein",
+    "COMB_MIN_LENGTH": 3,
+    "FILTER_QUANTILE": 0.1,
+    "USE_COMBINATIONS": true,
+    "RETRAIN": true,
+    "NUM_OF_IMG_TO_SAVE": 40,
+    "STOP_AFTER_IMG_SAVE": false,
+    "SAVE_MODELS": true
+}

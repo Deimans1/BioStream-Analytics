@@ -1,0 +1,4 @@
+Test_ID,Inputs,MMSE,MAE,MSE,RMSE,RSS,R2,Model_id,Weights
+0,"[['Time', 'Age', 'CPR', 'Carbon_Feed', 'CumulativeAge', 'miuSimp', 'Protein']]",1.06827841,0.03173667,0.00480507,0.06931863,0.08649131,0.96413745,0,1
+1,"[['Time', 'Age', 'CPR', 'Carbon_Feed', 'CumulativeAge', 'miuSimp', 'Protein'], ['Time', 'Age', 'dCarbon_Feed', 'Induction', 'miuSimp', 'Protein']]",1.05230444,0.02489512,0.0025142,0.0501418,0.0452556,0.98123533,0,"[0.4586251239309035, 0.5413748760690964]"
+2,"[['Time', 'Age', 'CPR', 'Carbon_Feed', 'CumulativeAge', 'miuSimp', 'Protein'], ['Time', 'Age', 'dCarbon_Feed', 'Induction', 'miuSimp', 'Protein'], ['Age', 'dCarbon_Feed', 'Induction', 'CumulativeAge', 'miuSimp', 'Protein']]",1.05193152,0.02460431,0.00272291,0.05218147,0.04901231,0.97967765,0,"[0.3568512368696227, 0.37873168458071255, 0.2644170785496647]"
